@@ -1,0 +1,39 @@
+CSV 600mb
+Execution time: 12.997116088867188 seconds 8cores
+Execution time: 24.02565598487854 seconds 4cores
+Execution time: 13.66998291015625 seconds * Cores
+
+Repartition
+Execution time: 23.772311687469482 seconds 4 partition
+Execution time: 22.96779990196228 seconds  5 partition
+Execution time: 23.22477126121521 seconds 8 partition
+Execution time: 25.192142724990845 seconds 12 partition
+
+Coalesce
+Execution time: 31.749587059020996 seconds 1 partition
+Execution time: 17.60212731361389 seconds 2 partition
+Execution time: 15.972954988479614 seconds 3 partition
+Execution time: 8.915536880493164 seconds 4 partiton
+
+Parquet 600mb file
+Execution time: 16.825823068618774 seconds 2 cores
+Execution time: 13.65254807472229 seconds 4 cores
+Execution time: 10.818243980407715 seconds 8 cores
+
+
+Coalesce
+Execution time: 22.81498122215271 seconds 1 partition
+Execution time: 13.336076021194458 seconds 2 partition
+Execution time: 10.737190008163452 seconds 3 partition
+Execution time: 11.5158851146698 seconds 4partition
+
+Repartition
+Execution time: 17.662644863128662 seconds 4partition
+Execution time: 17.32234477996826 seconds 8partition
+Execution time: 17.566771030426025 seconds
+
+
+Partition by
+Coalesce - 1
+Execution time: 27.67861294746399 seconds
+
